@@ -13,11 +13,13 @@ This is to build a website that reflects the values of Judah, while being repres
 
 ## Web Portfolio Creation Journey
 ### Setup
-Started off by using 
+Started off by using:
 - Visual Studio Code (Community Edition) as the Integrated Development Envionment (IDE)
+- Bash (To execute the git commands)
 - HTML 5 (Structure)
 - CSS 3 (Styling)
 - JavaScript (Minor element behaviors/animation)
 - Bootstrap 5 (Framework to make the responsiveness and structuring easier)
 - Git (Version Control)
 - GitHub Repository (Online storage of code)
+[![My Skills](https://skillicons.dev/icons?i=vscode,bash,html,css,js,bootstrap,git,github)](https://skillicons.dev)
