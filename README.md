@@ -1,7 +1,7 @@
 # Judah's Personal Portfolio
 
 ## Introduction
-This is to build a website that reflects the values of Judah, while being representative of the skills and value he can bring to the world.
+This is to build a website 💻 that reflects the values of Judah, while being representative of the skills and value he can bring to the world 🌎
 
 ## Tech Stack for the Website
 - HTML 5
@@ -24,3 +24,10 @@ Started off by using:
 - GitHub Repository (Online storage of code)
 
 [![My Skills](https://skillicons.dev/icons?i=vscode,bash,html,css,js,bootstrap,git,github)](https://skillicons.dev)
+
+### Design Process
+1. Create an index.html file for setting up the basic structure of the webpage. It must contain the following sections:
+    - About 
+    - Skills
+    - Projects
+    - Contact
