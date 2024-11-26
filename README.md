@@ -22,4 +22,5 @@ Started off by using:
 - Bootstrap 5 (Framework to make the responsiveness and structuring easier)
 - Git (Version Control)
 - GitHub Repository (Online storage of code)
+
 [![My Skills](https://skillicons.dev/icons?i=vscode,bash,html,css,js,bootstrap,git,github)](https://skillicons.dev)
