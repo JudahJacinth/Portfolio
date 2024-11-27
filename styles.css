@@ -299,9 +299,9 @@ table {
     width: 100%;
     border-collapse: collapse;
     font-size: 1.2rem;
+    border: none;
 }
 th, td {
-    border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
@@ -311,3 +311,88 @@ caption {
     margin-bottom: 10px;
 }
 /* Skills Section Ends */
+
+/* Experience Section */
+#experience {
+    /* background: linear-gradient(to right, #f2994a, #f2b134); */
+    background: transparent;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 10rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#experience h3 {
+    color: white;
+    text-shadow: #333;
+    padding-top:2rem;
+    margin-left: 2rem;
+    font-size: 10rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#experience li {
+    color: white;
+    text-shadow: #333;
+    padding-top:2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#city {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+.carousel-item {
+    height: 68vh; /* Set a height for the carousel items */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    transition: transform 0.5s ease-in-out;
+}
+
+#palmdigitalz {
+    background: linear-gradient(to right, #EB1918, #0CC0DF, #5006AD);
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#hcl {
+    background: linear-gradient(to right, #003366, #5E4B8A, #66B2FF);
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#mphasis {
+    background: linear-gradient(to left, #FF5CCC, #800080, #8A2BE2);
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#snuc {
+    background: linear-gradient(to right, #1f5ca5, #ff8c07);
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#m2p {
+    background: linear-gradient(to right, #8B0000, #B22222, #DC143C);
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#deduce {
+    background: linear-gradient(to right, #003366, #00509E, #66B2FF);
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* Experience Section Ends */

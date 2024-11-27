@@ -43,3 +43,4 @@ Note: I've added meta tags to the header to make the website SEO friendly
 (I decided to go with a gradient of Glory Red and Glory Blue to show my bold and cool personality to be blended in one.)
 4. Create divs to make our job styling easier
 5. Decided to go with an interactive menu system like section for the About Me.
+6. Decided to add an experience section as I have real world experience through internships, and most of my projects are proprietary
