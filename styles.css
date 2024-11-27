@@ -396,3 +396,118 @@ caption {
     margin-bottom: 2rem;
 }
 /* Experience Section Ends */
+
+/* Contact Section */
+.login {
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+}
+
+.login h1 {
+    padding-top: 2rem;
+}
+
+.login input {
+    width: 30rem;
+    height: 3rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.login a #forgot-password{
+    padding: 1.5rem;
+}
+
+.login button {
+    width: 30rem;
+    height: 3rem;
+    margin: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+#login {
+    background-color: #0171d4;
+    color: #ffffff;
+    border: 1.5px solid #0171d4;
+}
+
+.horizontal-rule {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.styled-hr {
+    flex-grow: 1; /* Allow the line to grow and fill space */
+    height: 1px; /* Thickness of the line */
+    background-color: #333; /* Color of the line */
+    border: none; /* Remove default border */
+}
+
+span {
+    padding: 0 10px; /* Space around the text */
+    color: #333; /* Color of the text */
+    font-weight: bold; /* Make text bold */
+}
+
+#facebook {
+    background-color: #3b5998; /* Facebook color */
+    color: #ffffff;
+    border: 1.5px solid #3b5998;
+}
+
+#google {
+    background-color: #ffffff; /* Google color */
+    color: #333333;
+    border: 1.5px solid #333333;
+}
+/* Contact Section Ends */
+
+/* Footer */
+footer {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 2rem 0; /* Padding for spacing */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Use a sans-serif font */
+}
+
+footer h2 {
+    font-size: 2rem; /* Clear heading size */
+    margin-bottom: 1rem; /* Space below heading */
+    text-align: left; /* Left align for clarity */
+}
+
+.footer-left h1 {
+    font-size: 5rem; /* Size for name */
+    margin-bottom: 1rem; /* Space below name */
+}
+
+.footer-right {
+    text-align: center; /* Left align links */
+}
+
+.footer-right a {
+    display: block; /* Stack links vertically */
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 0.5rem; /* Space between links */
+}
+
+.footer-right a:hover {
+    text-decoration: underline; /* Underline on hover for interactivity */
+}
+
+footer p {
+    text-align: center; /* Center align copyright */
+    margin-top: 2rem; /* Space above copyright */
+    color: #6c757d; /* Muted color for less emphasis */
+}
+/* Footer Ends */

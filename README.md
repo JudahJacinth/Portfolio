@@ -44,3 +44,11 @@ Note: I've added meta tags to the header to make the website SEO friendly
 4. Create divs to make our job styling easier
 5. Decided to go with an interactive menu system like section for the About Me.
 6. Decided to add an experience section as I have real world experience through internships, and most of my projects are proprietary
+
+## Reflection on Learning
+1. Having a prototype design either in Figma/Canva and looking at inspiration before designing is helpful.
+2. Creating specific divs with their own classes help style the elements more accurately.
+3. Always have the script at the bottom to help with a faster First Contentful Paint (FCS).
+4. Use "rem" instead of "px" to help in building responsive sizes for elements.
+5. Import Bootstrap JS element to implement carousel as it's much more efficient and faster (+easier to code).
+6. Break down your code by having comments!!! Improves readability and findability if you want to make any changes.
