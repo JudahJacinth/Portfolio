@@ -476,7 +476,7 @@ span {
 footer {
     background-color: #f8f9fa; /* Light background for contrast */
     padding: 2rem 0; /* Padding for spacing */
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Use a sans-serif font */
+    font-family: 'Montserrat', Arial, sans-serif; /* Use a sans-serif font */
 }
 
 footer h2 {
@@ -492,6 +492,7 @@ footer h2 {
 
 .footer-right {
     text-align: center; /* Left align links */
+    text-transform: uppercase;
 }
 
 .footer-right a {
