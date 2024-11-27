@@ -1,0 +1,313 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #f4f4f4;
+}
+
+.menu-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(to left, #B22234, #3C3B6E);
+    font-weight: 800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: none; /* Initially hidden */
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Below the button but above other content */
+}
+
+.menu-overlay.active {
+    display: flex; /* Show when active */
+}
+
+.navigation-links {
+    background-color: white; /* Background for links */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.navigation-links a {
+    display: block; /* Stack links vertically */
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation-links a:hover {
+    background: linear-gradient(to right, #B22234, #3C3B6E); /* American flag colors */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+.navigation-links button {
+    margin-top: 10px; /* Space above close button */
+}
+
+#close-button {
+    border-radius: 4px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: red 2px;
+    background-color: red;
+    color: #ffffff;
+}
+
+.hero {
+    margin-top: 8rem;
+}
+
+.hero h1 {
+    font-size: 16rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+}
+
+.hero h1.active {
+    opacity: 1;
+}
+
+#judah {
+    background: linear-gradient(to right, 
+        #009977, /* Darker Cyan */
+        #008b8f, /* Darker Intermediate Dark Cyan */
+        #007777, /* Even Darker Cyan */
+        #0055cc, /* Dark Blue */
+        #0047b3, /* Deeper Light Blue */
+        #0033cc, /* Medium Dark Blue */
+        #3f00cc, /* Deeper Light Purple */
+        #5f00cc, /* Dark Purple */
+        #8b00cc, /* Dark Bright Purple */
+        #9b00cc, /* Violet */
+        #a700cc, /* Darker Violet */
+        #c70099  /* Darker Magenta */
+    );
+    background-size: 200% 200%;
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* For Safari */
+    animation: gradientAnimation 10s ease infinite;
+    font-size: 16rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#jos {
+    color: white; /* Set the text color to white */
+    -webkit-text-stroke: 2px black;
+}
+
+#o {
+    color: navy;
+}
+
+#jacinth {
+    background: linear-gradient(to right, #28A745, #A3D9A5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+
+/* About Section */
+
+.about {
+    margin-top: 70vh;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+#what {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15rem;
+    color: black; /* Set the text color to white */
+    -webkit-text-stroke: 2px black;
+}
+
+#when {
+    font-size: 16rem;
+    text-align: center;
+}
+
+#year {
+    background: linear-gradient(to right, #B22234, #3C3B6E); /* American flag colors */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+#where {
+    background: linear-gradient(to bottom, #FF9933, #138808); /* Indian flag colors */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+#english {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 12rem;
+    background: linear-gradient(to right, #B22234, #3C3B6E); /* American flag colors */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+#tamil {
+    font-family: "Noto Sans Tamil", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 12rem;
+    background: linear-gradient(to right, #FF9933, #138808); /* Indian flag colors */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+#french {
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 12rem;
+    background: linear-gradient(to right, #0055A4, #EF4135); /* French flag colors */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+#how {
+    font-size: 12rem;
+    background: linear-gradient(to right, #1f5ca5, #ff8c07);
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 8px;
+    transition: background-color 10.3s ease;
+}
+
+.grid-item:hover {
+    /* background-color: #444; Darker background on hover */
+    background: linear-gradient(to left, #B22234, #3C3B6E);
+
+}
+
+.grid-item::after {
+    content: attr(data-hover); /* Use the data-hover attribute for tooltip text */
+    position: absolute;
+    bottom: 100%; /* Position above the item */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff; /* White background for tooltip */
+    color: #000; /* Black text for tooltip */
+    padding: 5px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+.grid-item:hover::after {
+    opacity: 1; /* Show tooltip on hover */
+}
+/* About Section Ends */
+
+/* Skills Section */
+.skills {
+    margin-top: 10rem;
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: #000000;
+    color: gray;
+    margin-bottom: 10rem;
+    font-size: 2rem;
+}
+
+.technical-skills {
+    background-color: #000000;
+    background: linear-gradient(to left, #B22234, #3C3B6E); /* American flag colors */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+    filter: brightness(200%);
+}
+
+.soft-skills {
+    background-color: #000000;
+    background: linear-gradient(to left, #B22234, #3C3B6E); /* American flag colors */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+    filter: brightness(200%);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Skills Section Ends */

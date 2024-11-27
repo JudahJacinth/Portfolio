@@ -37,6 +37,9 @@ Note: I've added meta tags to the header to make the website SEO friendly
 4. Create a sitemap of the site and link it at the bottom.
 
 ### Design Process
-1. I've decided to follow the Swiss design principles.
+1. I've decided to follow the Swiss 🇨🇭 design principles.
 2. Choose a Sans Serif font for better readability and simplicity.
 3. Select a primary color and a seconday color that can be used for the Call-To-Action (CTA).
+(I decided to go with a gradient of Glory Red and Glory Blue to show my bold and cool personality to be blended in one.)
+4. Create divs to make our job styling easier
+5. Decided to go with an interactive menu system like section for the About Me.
